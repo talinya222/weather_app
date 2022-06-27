@@ -130,6 +130,7 @@
         let currentTown = document.querySelector(".header__current-town");
         currentTown.innerHTML = cityName;
         userCity.value = "";
+        temp.classList.remove("_temp");
     }
     let searchIcon = document.querySelector(".form-header__search-button");
     searchIcon.addEventListener("click", showCity, showWeather);
